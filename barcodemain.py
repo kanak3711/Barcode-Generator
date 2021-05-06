@@ -17,7 +17,7 @@ class MainWin1(tk.Frame):
         width, height = master.winfo_screenwidth(), master.winfo_screenheight()
         master.geometry(set_size(master, width, height))
         master.resizable(True, True)
-        master.title("Barcode generator v2.0")
+        master.title("Barcode generator")
       
         self.cwidth=tk.IntVar()
         self.cheight=tk.IntVar()
