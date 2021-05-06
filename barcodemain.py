@@ -1029,11 +1029,6 @@ class HelpWin(tk.Frame):
         self.top.geometry(set_size(self.top, 200, 150))
         self.top.title("Info")
 
-        ttk.Label(self.top, text='Barcode generator v1.0', font=("Arial", 10, 'bold')).grid(row=0, column=0, padx=(10,10), pady=(15, 0), sticky='nswe')
-        ttk.Label(self.top, text='Hamraqulov Boburmirzo © 2017').grid(row=1, column=0, padx=(10,10), pady=(15, 0), sticky='nswe')
-        ttk.Label(self.top, text='Telegram: @bzimor').grid(row=2, column=0, padx=(10,10), pady=(5, 0), sticky='nswe')
-        ttk.Label(self.top, text='Github: github.com/bzimor').grid(row=3, column=0, padx=(10,10), pady=(5, 0), sticky='nswe')
-        ttk.Label(self.top, text='Email: bobzimor@gmail.com').grid(row=4, column=0, padx=(10,10), pady=(5, 0), sticky='nswe')
 
         self.top.grab_set()
         master.wait_window(self.top)
